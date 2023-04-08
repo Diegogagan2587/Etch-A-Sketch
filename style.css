@@ -1,0 +1,32 @@
+h1 {
+    text-align: center ;
+}
+#main-website-container{
+    padding: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background-color: beige;
+}
+#picture-container{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-color: blue;
+    border-style:solid;
+    border-width: 1px;
+    width: fit-content;
+}
+
+.white-pixel{
+    background: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 30px;
+
+}
+.white-pixel:hover{
+    background-color: black;
+}
